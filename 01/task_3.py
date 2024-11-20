@@ -58,21 +58,6 @@ def rotate(image, point: tuple, angle: float) -> np.ndarray:
     return dst_rotate
 
 
-# def apply_warpAffine(image, points1, points2) -> np.ndarray:
-#     """
-#     Применить афинное преобразование согласно переходу точек points1 -> points2 и
-#     преобразовать размер изображения.
-
-#     :param image:
-#     :param points1:
-#     :param points2:
-#     :return: преобразованное изображение
-#     """
-#     # Ваш код
-#     pass
-
-#     return image
-
 def apply_warpAffine(image, points1, points2):
     """
     Применяет перспективное преобразование к изображению.
